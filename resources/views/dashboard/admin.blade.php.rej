@@ -1,0 +1,9 @@
+diff a/resources/views/dashboard/admin.blade.php b/resources/views/dashboard/admin.blade.php	(rejected hunks)
+@@ -251,6 +251,7 @@
+ </div>
+     @endforeach
+     <script>
++<<<<<<< HEAD
+         // Function to refresh the buttons container
+         function refreshButtons() {
+             $('#buttons-container').load(location.href + ' #buttons-container');
