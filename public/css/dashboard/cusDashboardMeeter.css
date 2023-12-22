@@ -1,0 +1,257 @@
+/* Water Meter */
+.circular-progress-water{
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.circular-progress-water:before{
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    background-color: #3A4651;
+    border-radius: 50%;
+}
+.value-container-water{
+    position: relative;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+/* ambtemp */
+.circular-progress-ambtemp{
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.circular-progress-ambtemp:before{
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    background-color: #3A4651;
+    border-radius: 50%;
+}
+.value-container-ambtemp{
+    position: relative;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+/* ambthum */
+.circular-progress-ambthum{
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.circular-progress-ambthum:before{
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    background-color: #3A4651;
+    border-radius: 50%;
+}
+.value-container-ambthum{
+    position: relative;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+/* wtemp */
+.circular-progress-wtemp{
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.circular-progress-wtemp:before{
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    background-color: #3A4651;
+    border-radius: 50%;
+}
+.value-container-wtemp{
+    position: relative;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+/* ph */
+.circular-progress-ph{
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.circular-progress-ph:before{
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    background-color: #3A4651;
+    border-radius: 50%;
+}
+.value-container-ph{
+    position: relative;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+/*amblight*/
+
+.circular-progress-amblight{
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.circular-progress-amblight:before{
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    background-color: #3A4651;
+    border-radius: 50%;
+}
+.value-container-amblight{
+    position: relative;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+/*ec*/
+
+.circular-progress-ec{
+    position: relative;
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    background-color: #ffffff;
+    display: grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.circular-progress-ec:before{
+    content: "";
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    background-color: #3A4651;
+    border-radius: 50%;
+}
+.value-container-ec{
+    position: relative;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+
+
+
+/*Swiches on off buttons CSS*/
+
+        input[type="checkbox"]:checked {
+            border-color: #72B22B;
+
+        }
+
+
+        input[type="checkbox"]:hover {
+            background-color: #2b9be1;
+
+        }
+
+
+        .form-check-input[type="checkbox"]:before {
+            background-color: #72B22B;
+
+        }
+
+        .myCheck{
+            transform: scale(4);
+            background-color: #72B22B;
+         }
+         .myLable{
+             margin-left: 20%;
+             font-size: 18px;
+             font-weight: 700;
+         }
+         .drop-container {
+            position: relative;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            padding: 20px;
+
+            border: 2px ridge #85CE36;
+            color: #444;
+            cursor: pointer;
+            transition: background .2s ease-in-out, border .2s ease-in-out;
+          }
+
+          .drop-container:hover {
+            background: #eee;
+            border-color: #111;
+          }
+
+          .drop-container:hover .drop-title {
+            color: #222;
+          }
+
+          .drop-title {
+            color: #444;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            transition: color .2s ease-in-out;
+          }
+
+          .drop-container.drag-active {
+            background: #eee;
+            border-color: #111;
+          }
+
+          .drop-container.drag-active .drop-title {
+            color: #222;
+          }
+
+
